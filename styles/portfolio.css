@@ -109,13 +109,35 @@ footer {
 
 .about-me {
   font-family: var(--font-family);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
-  text-align: left;
+  margin-left: 30px;
   margin-top: 30px;
+  text-align: left;
+}
+
+.about-me-info {
+  font-family: var(--font-family);
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 30px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.see-work {
+  background-color: #586bdf;
+  font-family: var(--font-family);
+  font-size: 20px;
   margin-left: 30px;
 }
 
 .photo-me {
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-top: 30px;
+  margin-left: 200px;
+  height: auto;
+  vertical-align: right;
   width: 300px;
 }
