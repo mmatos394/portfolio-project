@@ -1,11 +1,15 @@
 :root {
-  --branding-color: #5585b5;
+  --branding-color: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
   --font-family: "Darker Grotesque", sans-serif;
 }
 
 .hero {
   background: var(--branding-color);
-
+  display: block;
   padding: 250px;
   width: 0 auto;
   text-align: center;
@@ -40,4 +44,65 @@
   margin: 20px;
   padding: 10px;
   width: 100px;
+}
+
+h3 {
+  font-family: var(--font-family);
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.learn-more-link {
+  display: block;
+  font-family: var(--font-family);
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.project-titles {
+  font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.project-images {
+  border-radius: 10px;
+  height: 250px;
+  margin-top: 20px;
+  width: 0 auto;
+}
+
+.skills {
+  border-radius: 10px;
+  margin-top: 30px;
+  height: 100px;
+}
+
+.icons {
+  font-size: 40px;
+  padding: 5px;
+  text-align: center;
+}
+
+i {
+  padding: 5px;
+}
+
+footer {
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media (max-width: 576px) {
+  .hero {
+    display: block;
+    padding: 80px 20px;
+  }
 }
