@@ -15,14 +15,29 @@
   text-align: center;
 }
 
+.hero-about-work {
+  background: var(--branding-color);
+  display: block;
+  padding: 150px;
+  width: 0 auto;
+  text-align: center;
+}
+
 .hero h1 {
   font-family: var(--font-family);
   color: white;
-
   font-size: 120px;
   font-weight: 700;
   margin-left: 20px;
+  margin-bottom: 20px;
+}
 
+.hero-about-work h1 {
+  font-family: var(--font-family);
+  color: white;
+  font-size: 90px;
+  font-weight: 700;
+  margin-left: 20px;
   margin-bottom: 20px;
 }
 
@@ -105,6 +120,10 @@ footer {
     display: block;
     padding: 80px 20px;
   }
+  .hero-about-work {
+    display: block;
+    padding: 80px 20px;
+  }
 }
 
 .about-me {
@@ -140,4 +159,44 @@ footer {
   height: auto;
   vertical-align: right;
   width: 300px;
+}
+
+.project-section {
+  margin-top: 30px;
+  padding: 100px;
+  text-align: center;
+}
+
+.project-container {
+  background: #586bdf;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  color: white;
+  display: block;
+  opacity: 0.8;
+  padding-bottom: 20px;
+  width: fluid;
+}
+
+.project-info {
+  font-family: var(--font-family);
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.launch-button {
+  background-color: white;
+  border: none;
+  color: black;
+  font-family: var(--font-family);
+  font-weight: 400;
+  margin: 20px;
+  padding: 10px;
+  width: 100px;
+}
+
+.row-margins {
+  margin-bottom: 50px;
 }
