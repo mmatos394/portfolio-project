@@ -5,17 +5,20 @@
 
 .hero {
   background: var(--branding-color);
+
   padding: 250px;
   width: 0 auto;
-  text-align: left;
+  text-align: center;
 }
 
 .hero h1 {
   font-family: var(--font-family);
   color: white;
+
   font-size: 120px;
   font-weight: 700;
   margin-left: 20px;
+
   margin-bottom: 20px;
 }
 
@@ -36,4 +39,5 @@
   font-weight: 400;
   margin: 20px;
   padding: 10px;
+  width: 100px;
 }
