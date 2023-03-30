@@ -15,6 +15,11 @@
   text-align: center;
 }
 
+.navbar {
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+
 .hero-about-work {
   background: var(--branding-color);
   display: block;
@@ -128,6 +133,9 @@ footer {
   .hero-about-work {
     display: block;
     padding: 80px 20px;
+  }
+  h1 {
+    font-size: 80px;
   }
 }
 
