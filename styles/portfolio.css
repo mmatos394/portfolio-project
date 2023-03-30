@@ -91,6 +91,10 @@ h3 {
   width: 0 auto;
 }
 
+.project-images:hover {
+  transform: scale(1.2);
+}
+
 .skills {
   border-radius: 10px;
   margin-top: 30px;
@@ -98,6 +102,7 @@ h3 {
 }
 
 .icons {
+  color: #000;
   font-size: 40px;
   padding: 5px;
   text-align: center;
@@ -199,4 +204,23 @@ footer {
 
 .row-margins {
   margin-bottom: 50px;
+}
+
+.contact-me {
+  color: white;
+  font-family: var(--font-family);
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.email-link {
+  color: white;
+  font-family: var(--font-family);
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
 }
